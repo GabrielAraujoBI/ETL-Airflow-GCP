@@ -1,4 +1,4 @@
-# MarketPulse Data Pipeline
+# Projeto de ETL
 
 Este projeto é um pipeline de dados construído com **Apache Airflow**, utilizando a distribuição da **Astronomer**, e integrando com **Google Cloud Storage (GCS)** e **BigQuery**.
 
@@ -24,9 +24,9 @@ Este projeto é um pipeline de dados construído com **Apache Airflow**, utiliza
 3. Acesse o Airflow Web UI em: http://localhost:8080
     3.1 Login: admin / Senha: admin
 4. Configure a chave de serviço do google em Admin › Connections
-   4.1 Preencha os campos:
-                          **Conn Id:** = gcp
-                          **Conn Type:** = Google Cloud
-                          **Keyfile Path:** = Caminho local do seu **service_account.json** (ex: /usr/local/airflow/include/gcp/service_account.json)
-                          💡Recomendação: mantenha esse arquivo fora do versionamento (.gitignore).
-5. Execute a DAG
+   4.1 Preencha os campos:  
+       - **Conn Id:** = gcp  
+       - **Conn Type:** = Google Cloud  
+       - **Keyfile Path:** = Caminho local do seu **service_account.json** (ex: /usr/local/airflow/include/gcp/service_account.json)  
+       💡Recomendação: mantenha esse arquivo fora do versionamento (.gitignore).
+6. Execute a DAG
