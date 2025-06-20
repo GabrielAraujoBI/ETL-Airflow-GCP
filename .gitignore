@@ -1,0 +1,19 @@
+.git
+.env
+.DS_Store
+__pycache__/
+.venv/
+astro/
+*.db
+airflow_settings.yaml
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+
+# GCP credentials
+gcp/
+gcp/service_account.json
+
+# docker
+docker-compose.override.yml
