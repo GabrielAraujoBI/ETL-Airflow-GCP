@@ -11,11 +11,11 @@ Este projeto é um pipeline de dados construído com **Apache Airflow**, utiliza
 
 ## 🛠️ Tecnologias e ferramentas
 
+- Docker
 - Apache Airflow (via Astronomer)
 - Python / pandas
 - Astro SDK (Astro CLI + aql)
 - Google Cloud Platform (GCS e BigQuery)
-- Docker (ambiente local via Astronomer CLI)**
 
 ## ▶️ Como rodar localmente
 
